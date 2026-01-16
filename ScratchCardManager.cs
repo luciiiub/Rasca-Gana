@@ -28,7 +28,7 @@ public class UIScratchCardManager : MonoBehaviour
         }
         else
         {
-            // ❌ NO GANASTE NADA → PIERDES CORDURA
+            // NO GANASTE NADA → PIERDES CORDURA
             GameManager.Instance.cordura -= 10;  // ← Ajusta la cantidad que quieras
             if (GameManager.Instance.cordura < 0)
                 GameManager.Instance.cordura = 0;
@@ -50,3 +50,4 @@ public class UIScratchCardManager : MonoBehaviour
         );
     }
 }
+
