@@ -7,8 +7,8 @@ public class ScratchCardEffect : MonoBehaviour
     [Range(0f, 1f)]
     public float threshold = 0.7f;
 
-    public UIScratchCardManager scratchManager;   // ← NUEVO
-    public CardRewardSystem cardReward;           // ← NUEVO
+    public UIScratchCardManager scratchManager;  
+    public CardRewardSystem cardReward;          
     
     private bool isPressed = false;
     private int totalMasks = 0;
@@ -68,3 +68,4 @@ public class ScratchCardEffect : MonoBehaviour
             Debug.LogError("❌ ScratchCardEffect NO tiene asignado un UIScratchCardManager.");
     }
 }
+
