@@ -65,7 +65,7 @@ public class ScratchCardEffect : MonoBehaviour
         if (scratchManager != null)
             scratchManager.OnCartaRevelada(valor);
         else
-            Debug.LogError("❌ ScratchCardEffect NO tiene asignado un UIScratchCardManager.");
+            Debug.LogError("ScratchCardEffect NO tiene asignado un UIScratchCardManager.");
     }
 }
 
